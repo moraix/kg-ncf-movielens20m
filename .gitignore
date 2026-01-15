@@ -1,0 +1,15 @@
+# ===== Data & Outputs =====
+kg_output*/
+*.csv
+*.tsv
+*.npy
+*.pt
+*.pth
+*.parquet
+
+# ===== Colab / Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Python =====
+__pycache__/
+*.pyc
