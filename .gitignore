@@ -1,15 +1,19 @@
-# ===== Data & Outputs =====
-kg_output*/
-*.csv
-*.tsv
+# Data & models
 *.npy
+*.npz
 *.pt
-*.pth
 *.parquet
+*.csv
 
-# ===== Colab / Jupyter =====
+# Notebooks outputs
 .ipynb_checkpoints/
 
-# ===== Python =====
+# Python cache
 __pycache__/
 *.pyc
+
+# Env
+.env
+
+# OS
+.DS_Store
